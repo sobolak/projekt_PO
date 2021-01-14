@@ -1,0 +1,43 @@
+body{
+    background-color: #4c4c4c;
+}
+#startView{
+    align-items: center;
+    padding: 10% 30%;
+}
+#tytuł{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #d6d6d6;
+}
+
+#przycisk{
+    margin: 10px auto;
+    align-items: center;
+    width: 50%;
+    border: none;
+    background: #ffcc00;
+    color: black !important;
+    font-weight: 100;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+
+#przycisk:hover {
+    color: #d6d6d6 !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgb(255,204,0);
+    -moz-box-shadow: 0px 5px 40px -10px rgb(255,204,0);
+    transition: all 0.3s ease 0s;
+}
+
+#logo{
+    width: 300px;
+    margin: auto;
+}
+

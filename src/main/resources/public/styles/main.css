@@ -1,0 +1,235 @@
+html,body{overflow-x: hidden;}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#layout{
+    display: flex;
+    justify-content: center;
+    margin: 0px 30px;
+}
+
+#layout1{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    color: aquamarine; !important;
+    top: 0;
+    left: 70%;
+}
+
+#wyloguj{
+    width: 10px; !important;
+    size: 10px; !important;
+}
+
+#Image{
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    margin: auto 5px;
+}
+
+
+#klient_przycisk_wyslij{
+    margin: 20px auto !important;
+    width: 20% !important;
+}
+
+
+#przyciskNaSrodek {
+    display: flex;
+    justify-content: center;
+}
+
+#przycisk_klient{
+    margin: 10px;
+    align-items: center;
+    width: 21%;
+    border: none;
+    background: #ffcc00;
+    color: black !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    text-align: center;
+}
+
+#przycisk_klient:hover {
+    color: #d6d6d6 !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgb(255,204,0);
+    -moz-box-shadow: 0px 5px 40px -10px rgb(255,204,0);
+    transition: all 0.3s ease 0s;
+}
+
+
+#logokierownik {
+    position: absolute;
+    left: -65%;
+    top: -60%;
+    height: 200%;
+}
+
+#przycisk_wyloguj{
+    margin: 10px;
+    align-items: center;
+    width: 8%;
+    border: none;
+    background: #ffcc00;
+    color: black !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    text-align: center;
+}
+#przycisk_wyloguj:hover {
+    color: #d6d6d6 !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgb(255,204,0);
+    -moz-box-shadow: 0px 5px 40px -10px rgb(255,204,0);
+    transition: all 0.3s ease 0s;
+}
+#formularz{
+    text-align: center;
+    margin-left: 40px;
+}
+
+#przycisk_wyslij{
+    align-items: center;
+    width: 15% !important;
+    border: none;
+    background: #ffcc00;
+    color: black !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    text-align: center;
+    position: relative;
+    left: 42.5%;
+}
+#przycisk_wyslij:hover {
+    color: #d6d6d6 !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgb(255,204,0);
+    -moz-box-shadow: 0px 5px 40px -10px rgb(255,204,0);
+    transition: all 0.3s ease 0s;
+}
+
+:host([disabled][disabled]) {
+    pointer-events: none;
+    color: var(--lumo-disabled-text-color) !important;
+}
+
+#przycisk_dane{
+    --lumo-primary-color: black !important;
+    margin: 10px;
+    align-items: center;
+    width: 21%;
+    border: none;
+    background: #ffcc00;
+    color: black !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    text-align: center;
+}
+
+#przycisk_dane:hover {
+    color: #d6d6d6 !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgb(255,204,0);
+    -moz-box-shadow: 0px 5px 40px -10px rgb(255,204,0);
+    transition: all 0.3s ease 0s;
+}
+
+#przycisk_wyslij_kurier{
+    align-items: center;
+    width: 15% !important;
+    border: none;
+    background: #ffcc00;
+    color: black !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    text-align: center;
+    position: relative;
+}
+#przycisk_wyslij_kurier:hover {
+    color: #d6d6d6 !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgb(255,204,0);
+    -moz-box-shadow: 0px 5px 40px -10px rgb(255,204,0);
+    transition: all 0.3s ease 0s;
+}
+
+#przycisk_dodaj_kierownik{
+    align-items: center;
+    width: 15% !important;
+    border: none;
+    background: #ffcc00;
+    color: black !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    text-align: center;
+    position: relative;
+    right: 7.5%;
+    top: 60px;
+}
+#przycisk_dodaj_kierownik:hover {
+    color: #d6d6d6 !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgb(255,204,0);
+    -moz-box-shadow: 0px 5px 40px -10px rgb(255,204,0);
+    transition: all 0.3s ease 0s;
+}
+#przycisk_biuro{
+    align-items: center;
+    width: 21%;
+    border: none;
+    background: #ffcc00;
+    color: black !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    text-align: center;
+}
+
+#przycisk_biuro:hover {
+    color: #d6d6d6 !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgb(255,204,0);
+    -moz-box-shadow: 0px 5px 40px -10px rgb(255,204,0);
+    transition: all 0.3s ease 0s;
+}
